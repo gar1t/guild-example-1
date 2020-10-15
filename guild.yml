@@ -1,0 +1,7 @@
+test:
+  requires:
+    - file: data/${data}
+      target-path: data
+      name: data
+  flags:
+    data: foo.txt
